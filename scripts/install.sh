@@ -11,4 +11,4 @@ hdiutil unmount /Volumes/Docker
 
 sudo /Applications/Docker.app/Contents/MacOS/Docker --quit-after-install --unattended
 
-nohup /Applications/Docker.app/Contents/MacOS/Docker &
+nohup /Applications/Docker.app/Contents/MacOS/Docker --unattended &
