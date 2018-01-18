@@ -1,6 +1,8 @@
 #!/bin/bash
 set -x
 
+cd "$( dirname "${BASH_SOURCE[0]}" )"
+
 version=$1 # edge or stable
 
 if [[ "$version" = "" ]]; then
